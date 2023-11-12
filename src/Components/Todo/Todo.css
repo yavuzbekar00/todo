@@ -1,0 +1,49 @@
+.todo-card {
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.todo-contain {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(203, 228, 250);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: all .4s;
+}
+
+.complated {
+    text-decoration: line-through;
+}
